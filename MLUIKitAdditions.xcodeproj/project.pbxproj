@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4947345218EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
-		4947345718EC4782000FBC14 /* MLUIKitAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4947345618EC4782000FBC14 /* MLUIKitAdditions.h */; };
-		4947345918EC4782000FBC14 /* MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947345818EC4782000FBC14 /* MLUIKitAdditions.m */; };
 		4947346018EC4782000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345F18EC4782000FBC14 /* XCTest.framework */; };
 		4947346118EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
 		4947346318EC4782000FBC14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947346218EC4782000FBC14 /* UIKit.framework */; };
 		4947346618EC4782000FBC14 /* libMLUIKitAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */; };
 		4947346C18EC4782000FBC14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4947346A18EC4782000FBC14 /* InfoPlist.strings */; };
 		4947346E18EC4782000FBC14 /* MLUIKitAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947346D18EC4782000FBC14 /* MLUIKitAdditionsTests.m */; };
+		4947348018EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947347918EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m */; };
+		4947348118EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */; };
+		4947348218EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				4947345718EC4782000FBC14 /* MLUIKitAdditions.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +45,19 @@
 		4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLUIKitAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947345118EC4782000FBC14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4947345518EC4782000FBC14 /* MLUIKitAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLUIKitAdditions-Prefix.pch"; sourceTree = "<group>"; };
-		4947345618EC4782000FBC14 /* MLUIKitAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUIKitAdditions.h; sourceTree = "<group>"; };
-		4947345818EC4782000FBC14 /* MLUIKitAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIKitAdditions.m; sourceTree = "<group>"; };
 		4947345E18EC4782000FBC14 /* MLUIKitAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLUIKitAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947345F18EC4782000FBC14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4947346218EC4782000FBC14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4947346918EC4782000FBC14 /* MLUIKitAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLUIKitAdditionsTests-Info.plist"; sourceTree = "<group>"; };
 		4947346B18EC4782000FBC14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4947346D18EC4782000FBC14 /* MLUIKitAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIKitAdditionsTests.m; sourceTree = "<group>"; };
+		4947347718EC4799000FBC14 /* MLUIKitAdditions.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MLUIKitAdditions.podspec; path = ../MLUIKitAdditions.podspec; sourceTree = "<group>"; };
+		4947347818EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+MLUIKitAdditions.h"; sourceTree = "<group>"; };
+		4947347918EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+MLUIKitAdditions.m"; sourceTree = "<group>"; };
+		4947347A18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MLUIKitAdditions.h"; sourceTree = "<group>"; };
+		4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MLUIKitAdditions.m"; sourceTree = "<group>"; };
+		4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLUIKitAdditions.h"; sourceTree = "<group>"; };
+		4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLUIKitAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +115,12 @@
 		4947345318EC4782000FBC14 /* MLUIKitAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				4947345618EC4782000FBC14 /* MLUIKitAdditions.h */,
-				4947345818EC4782000FBC14 /* MLUIKitAdditions.m */,
+				4947347818EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.h */,
+				4947347918EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m */,
+				4947347A18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.h */,
+				4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */,
+				4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */,
+				4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */,
 				4947345418EC4782000FBC14 /* Supporting Files */,
 			);
 			path = MLUIKitAdditions;
@@ -121,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				4947345518EC4782000FBC14 /* MLUIKitAdditions-Prefix.pch */,
+				4947347718EC4799000FBC14 /* MLUIKitAdditions.podspec */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,7 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4947345918EC4782000FBC14 /* MLUIKitAdditions.m in Sources */,
+				4947348118EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m in Sources */,
+				4947348018EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m in Sources */,
+				4947348218EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				4947347318EC4782000FBC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4947347418EC4782000FBC14 /* Build configuration list for PBXNativeTarget "MLUIKitAdditionsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				4947347618EC4782000FBC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
