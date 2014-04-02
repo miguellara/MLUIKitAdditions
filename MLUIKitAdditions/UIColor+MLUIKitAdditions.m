@@ -23,9 +23,9 @@
 						   alpha:1.0f];
 }
 
-+ (UIColor *)ml_colorForHexString:(NSString *)stringToConvert
++ (UIColor *)ml_colorForRGBHexString:(NSString *)string
 {
-	NSScanner *scanner = [NSScanner scannerWithString:stringToConvert];
+	NSScanner *scanner = [NSScanner scannerWithString:string];
 	unsigned hexNum;
 	if (![scanner scanHexInt:&hexNum])
 	{
