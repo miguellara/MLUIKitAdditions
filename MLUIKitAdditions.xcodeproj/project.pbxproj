@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4947345218EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
+		4947345718EC4782000FBC14 /* MLUIKitAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4947345618EC4782000FBC14 /* MLUIKitAdditions.h */; };
+		4947345918EC4782000FBC14 /* MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947345818EC4782000FBC14 /* MLUIKitAdditions.m */; };
+		4947346018EC4782000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345F18EC4782000FBC14 /* XCTest.framework */; };
+		4947346118EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
+		4947346318EC4782000FBC14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947346218EC4782000FBC14 /* UIKit.framework */; };
+		4947346618EC4782000FBC14 /* libMLUIKitAdditions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */; };
+		4947346C18EC4782000FBC14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4947346A18EC4782000FBC14 /* InfoPlist.strings */; };
+		4947346E18EC4782000FBC14 /* MLUIKitAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4947346D18EC4782000FBC14 /* MLUIKitAdditionsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4947346418EC4782000FBC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4947344618EC4782000FBC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4947344D18EC4782000FBC14;
+			remoteInfo = MLUIKitAdditions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4947344C18EC4782000FBC14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4947345718EC4782000FBC14 /* MLUIKitAdditions.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLUIKitAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947345118EC4782000FBC14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4947345518EC4782000FBC14 /* MLUIKitAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLUIKitAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		4947345618EC4782000FBC14 /* MLUIKitAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLUIKitAdditions.h; sourceTree = "<group>"; };
+		4947345818EC4782000FBC14 /* MLUIKitAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIKitAdditions.m; sourceTree = "<group>"; };
+		4947345E18EC4782000FBC14 /* MLUIKitAdditionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLUIKitAdditionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4947345F18EC4782000FBC14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4947346218EC4782000FBC14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4947346918EC4782000FBC14 /* MLUIKitAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLUIKitAdditionsTests-Info.plist"; sourceTree = "<group>"; };
+		4947346B18EC4782000FBC14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4947346D18EC4782000FBC14 /* MLUIKitAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLUIKitAdditionsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4947344B18EC4782000FBC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947345218EC4782000FBC14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947345B18EC4782000FBC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947346018EC4782000FBC14 /* XCTest.framework in Frameworks */,
+				4947346618EC4782000FBC14 /* libMLUIKitAdditions.a in Frameworks */,
+				4947346318EC4782000FBC14 /* UIKit.framework in Frameworks */,
+				4947346118EC4782000FBC14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4947344518EC4782000FBC14 = {
+			isa = PBXGroup;
+			children = (
+				4947345318EC4782000FBC14 /* MLUIKitAdditions */,
+				4947346718EC4782000FBC14 /* MLUIKitAdditionsTests */,
+				4947345018EC4782000FBC14 /* Frameworks */,
+				4947344F18EC4782000FBC14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4947344F18EC4782000FBC14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */,
+				4947345E18EC4782000FBC14 /* MLUIKitAdditionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4947345018EC4782000FBC14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4947345118EC4782000FBC14 /* Foundation.framework */,
+				4947345F18EC4782000FBC14 /* XCTest.framework */,
+				4947346218EC4782000FBC14 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4947345318EC4782000FBC14 /* MLUIKitAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				4947345618EC4782000FBC14 /* MLUIKitAdditions.h */,
+				4947345818EC4782000FBC14 /* MLUIKitAdditions.m */,
+				4947345418EC4782000FBC14 /* Supporting Files */,
+			);
+			path = MLUIKitAdditions;
+			sourceTree = "<group>";
+		};
+		4947345418EC4782000FBC14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4947345518EC4782000FBC14 /* MLUIKitAdditions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4947346718EC4782000FBC14 /* MLUIKitAdditionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4947346D18EC4782000FBC14 /* MLUIKitAdditionsTests.m */,
+				4947346818EC4782000FBC14 /* Supporting Files */,
+			);
+			path = MLUIKitAdditionsTests;
+			sourceTree = "<group>";
+		};
+		4947346818EC4782000FBC14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4947346918EC4782000FBC14 /* MLUIKitAdditionsTests-Info.plist */,
+				4947346A18EC4782000FBC14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4947344D18EC4782000FBC14 /* MLUIKitAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947347118EC4782000FBC14 /* Build configuration list for PBXNativeTarget "MLUIKitAdditions" */;
+			buildPhases = (
+				4947344A18EC4782000FBC14 /* Sources */,
+				4947344B18EC4782000FBC14 /* Frameworks */,
+				4947344C18EC4782000FBC14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLUIKitAdditions;
+			productName = MLUIKitAdditions;
+			productReference = 4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4947345D18EC4782000FBC14 /* MLUIKitAdditionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4947347418EC4782000FBC14 /* Build configuration list for PBXNativeTarget "MLUIKitAdditionsTests" */;
+			buildPhases = (
+				4947345A18EC4782000FBC14 /* Sources */,
+				4947345B18EC4782000FBC14 /* Frameworks */,
+				4947345C18EC4782000FBC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4947346518EC4782000FBC14 /* PBXTargetDependency */,
+			);
+			name = MLUIKitAdditionsTests;
+			productName = MLUIKitAdditionsTests;
+			productReference = 4947345E18EC4782000FBC14 /* MLUIKitAdditionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4947344618EC4782000FBC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Miguel Lara";
+			};
+			buildConfigurationList = 4947344918EC4782000FBC14 /* Build configuration list for PBXProject "MLUIKitAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4947344518EC4782000FBC14;
+			productRefGroup = 4947344F18EC4782000FBC14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4947344D18EC4782000FBC14 /* MLUIKitAdditions */,
+				4947345D18EC4782000FBC14 /* MLUIKitAdditionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4947345C18EC4782000FBC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947346C18EC4782000FBC14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4947344A18EC4782000FBC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947345918EC4782000FBC14 /* MLUIKitAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4947345A18EC4782000FBC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4947346E18EC4782000FBC14 /* MLUIKitAdditionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4947346518EC4782000FBC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4947344D18EC4782000FBC14 /* MLUIKitAdditions */;
+			targetProxy = 4947346418EC4782000FBC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4947346A18EC4782000FBC14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4947346B18EC4782000FBC14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4947346F18EC4782000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4947347018EC4782000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4947347218EC4782000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MLUIKitAdditions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLUIKitAdditions/MLUIKitAdditions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4947347318EC4782000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MLUIKitAdditions.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLUIKitAdditions/MLUIKitAdditions-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4947347518EC4782000FBC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLUIKitAdditions/MLUIKitAdditions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MLUIKitAdditionsTests/MLUIKitAdditionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4947347618EC4782000FBC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLUIKitAdditions/MLUIKitAdditions-Prefix.pch";
+				INFOPLIST_FILE = "MLUIKitAdditionsTests/MLUIKitAdditionsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4947344918EC4782000FBC14 /* Build configuration list for PBXProject "MLUIKitAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947346F18EC4782000FBC14 /* Debug */,
+				4947347018EC4782000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4947347118EC4782000FBC14 /* Build configuration list for PBXNativeTarget "MLUIKitAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947347218EC4782000FBC14 /* Debug */,
+				4947347318EC4782000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4947347418EC4782000FBC14 /* Build configuration list for PBXNativeTarget "MLUIKitAdditionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4947347518EC4782000FBC14 /* Debug */,
+				4947347618EC4782000FBC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4947344618EC4782000FBC14 /* Project object */;
+}
