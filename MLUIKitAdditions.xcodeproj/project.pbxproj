@@ -58,6 +58,7 @@
 		4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MLUIKitAdditions.m"; sourceTree = "<group>"; };
 		4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLUIKitAdditions.h"; sourceTree = "<group>"; };
 		4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLUIKitAdditions.m"; sourceTree = "<group>"; };
+		49C6E1AB18F741FC00ADE74D /* MLDeviceDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLDeviceDetection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +116,14 @@
 		4947345318EC4782000FBC14 /* MLUIKitAdditions */ = {
 			isa = PBXGroup;
 			children = (
+				49C6E1AB18F741FC00ADE74D /* MLDeviceDetection.h */,
+				4947345418EC4782000FBC14 /* Supporting Files */,
 				4947347818EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.h */,
 				4947347918EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m */,
 				4947347A18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.h */,
 				4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */,
 				4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */,
 				4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */,
-				4947345418EC4782000FBC14 /* Supporting Files */,
 			);
 			path = MLUIKitAdditions;
 			sourceTree = "<group>";
