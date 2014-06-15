@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "MLUIKitAdditions"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Lite framework with some helpful categories over UIKit classes."
   s.homepage         = "https://github.com/miguellara/MLUIKitAdditions.git"
   s.license          = 'MIT'
