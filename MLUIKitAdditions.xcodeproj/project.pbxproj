@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490A87F5194E0461008B747C /* UIView+MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A87F4194E0461008B747C /* UIView+MLUIKitAdditions.m */; };
 		4947345218EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
 		4947346018EC4782000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345F18EC4782000FBC14 /* XCTest.framework */; };
 		4947346118EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490A87F3194E0461008B747C /* UIView+MLUIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLUIKitAdditions.h"; sourceTree = "<group>"; };
+		490A87F4194E0461008B747C /* UIView+MLUIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLUIKitAdditions.m"; sourceTree = "<group>"; };
 		4947344E18EC4782000FBC14 /* libMLUIKitAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMLUIKitAdditions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4947345118EC4782000FBC14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4947345518EC4782000FBC14 /* MLUIKitAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLUIKitAdditions-Prefix.pch"; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				4947347B18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m */,
 				4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */,
 				4947347D18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m */,
+				490A87F3194E0461008B747C /* UIView+MLUIKitAdditions.h */,
+				490A87F4194E0461008B747C /* UIView+MLUIKitAdditions.m */,
 			);
 			path = MLUIKitAdditions;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4947348118EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.m in Sources */,
+				490A87F5194E0461008B747C /* UIView+MLUIKitAdditions.m in Sources */,
 				4947348018EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.m in Sources */,
 				4947348218EC47C9000FBC14 /* UIColor+MLUIKitAdditions.m in Sources */,
 			);
