@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		490A87F5194E0461008B747C /* UIView+MLUIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 490A87F4194E0461008B747C /* UIView+MLUIKitAdditions.m */; };
+		490A87F7194E368A008B747C /* MLDeviceDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 49C6E1AB18F741FC00ADE74D /* MLDeviceDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490A87F8194E368A008B747C /* UIActionSheet+MLUIKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947347818EC47C9000FBC14 /* UIActionSheet+MLUIKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490A87F9194E368A008B747C /* UIAlertView+MLUIKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947347A18EC47C9000FBC14 /* UIAlertView+MLUIKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490A87FA194E368A008B747C /* UIColor+MLUIKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4947347C18EC47C9000FBC14 /* UIColor+MLUIKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490A87FB194E368A008B747C /* UIView+MLUIKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 490A87F3194E0461008B747C /* UIView+MLUIKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4947345218EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
 		4947346018EC4782000FBC14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345F18EC4782000FBC14 /* XCTest.framework */; };
 		4947346118EC4782000FBC14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4947345118EC4782000FBC14 /* Foundation.framework */; };
@@ -162,6 +167,21 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		490A87F6194E367C008B747C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490A87F7194E368A008B747C /* MLDeviceDetection.h in Headers */,
+				490A87F8194E368A008B747C /* UIActionSheet+MLUIKitAdditions.h in Headers */,
+				490A87F9194E368A008B747C /* UIAlertView+MLUIKitAdditions.h in Headers */,
+				490A87FA194E368A008B747C /* UIColor+MLUIKitAdditions.h in Headers */,
+				490A87FB194E368A008B747C /* UIView+MLUIKitAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		4947344D18EC4782000FBC14 /* MLUIKitAdditions */ = {
 			isa = PBXNativeTarget;
@@ -170,6 +190,7 @@
 				4947344A18EC4782000FBC14 /* Sources */,
 				4947344B18EC4782000FBC14 /* Frameworks */,
 				4947344C18EC4782000FBC14 /* CopyFiles */,
+				490A87F6194E367C008B747C /* Headers */,
 			);
 			buildRules = (
 			);
